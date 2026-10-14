@@ -13,14 +13,14 @@ class Animal:
 
 
     def presentarse(self):
-        print(f"Hola, soy{self.nombre}. Especie: {self.especie}. Edad: {self.edad} años.")
+        print(f"\nHola, soy{self.nombre}. Especie: {self.especie}. Edad: {self.edad} años.")
         
 
     def comer(self, gramos: int):
         self.energia+= (gramos // 10)
         if self.energia > 100:
             self.energia = 100
-        print(f"Comiendo.... energia nueva:{self.energia}")
+        print(f"\n({self.nombre}) Comiendo.... energia nueva: {self.energia}")
         
     
 
@@ -28,17 +28,17 @@ class Animal:
         self.energia -=20
         if self.energia <0:
             self.energia = 0
-            print(f"Energia {self.energia}, se va a dormir")
+            print(f"\n({self.nombre}) Energia {self.energia}, se va a dormir")
         else : 
-            print(f"Jugando.... energia nueva{self.energia}")
+            print(f"\n({self.nombre}) Jugando.... energia nueva: {self.energia}")
             
 
 
     def dormir(self):
-        self.energia+=20
+        self.energia+=30
         if self.energia > 100:
             self.energia = 100
-        print(f"Durmiendo.... energia nueva:{self.energia}")
+        print(f"\n({self.nombre})Durmiendo.... energia nueva: {self.energia}")
 
 
 
