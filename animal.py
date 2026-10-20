@@ -13,7 +13,7 @@ class Animal:
 
 
     def presentarse(self):
-        text = f"\nHola, soy{self.nombre}. Especie: {self.especie}. Edad: {self.edad} años."
+        text = f"\nHola, soy {self.nombre}. Especie: {self.especie}. Edad: {self.edad} años."
         cowsay.cow(text)
 
     def comer(self, gramos: int):
