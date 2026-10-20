@@ -16,11 +16,11 @@ Git
 
 Clonar el repositorio:
 
-git clone https://github.com/TU_USUARIO/refugio-tuapellido.git
+git clone https://github.com/diegosexxx/refugio-durrutia.git
 
 Entrar a la carpeta:
 
-cd refugio-tuapellido
+cd refugio-durrutia
 
 Instalar las dependencias:
 
